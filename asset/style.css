@@ -1,0 +1,158 @@
+/* Removing predefined codes */
+
+/* universal selector */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+a {
+   color: #fff;
+   text-decoration: none; 
+}
+
+p {
+    font-size: 16px;
+}
+
+/* header section */
+
+.logo {
+    display: inline-block;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#header {
+    padding: 20px; 
+    /* padding: 20px 20px 20px 20px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2a607c;
+    color: #fff;
+}
+
+/* formatting navbar */
+
+#header .nav {
+    padding: 15px;
+    float: right;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+#header .nav ul {
+    list-style-type: none;
+}
+
+#header .nav ul li {
+    display: inline-block;
+}
+
+
+/* hero section  */
+.hero {
+    background: url("./asset/hero.jpg")center/cover;
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+
+
+}
+
+
+/* main section starts */
+
+#content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.search-engine-opt img, 
+.online-reputation-management img, 
+.soical-media-marketing img 
+{
+    max-height: 200px;
+}
+
+
+
+
+.search-engine-opt , 
+.online-reputation-management , 
+.soical-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2a607c;
+    color: #fff;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right  {
+    float: right;
+    margin-left: 25px;
+    
+}
+
+/* right side content  */
+
+#benefits {
+    float: right;
+    margin-right: 20px;
+    clear: both;
+    height: 100%;
+    width: 20%;
+    background-color: #2a607c;
+}
+
+.benefits-lead, 
+.benefits-brand,
+.benefits-cost  {
+    margin: 32px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.benefits-lead h3, 
+.benefits-brand h3, 
+.benefits-cost h3 {
+    /* text-align: center; */
+    margin-bottom: 10px;
+}
+
+.benefits-lead img, 
+.benefits-brand img,
+.benefits-cost img {
+    display: block;
+    margin: 30px auto;
+    max-width: 150px;
+}
+
+
+
+/* FOOTER SECTON STARS */
+
+
+#footer {
+    padding: 30px;
+    text-align: center;
+}
+
+
+
+
+
